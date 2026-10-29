@@ -137,7 +137,4 @@ cusum_TBEA/
 MATLAB R2019b or later is recommended. The Monte-Carlo and optimisation scripts, as well as the two goodness-of-fit scripts, use only base MATLAB (the Gamma, Weibull and Normal densities and CDFs are written out explicitly, so no Statistics and Machine Learning Toolbox is required). `Scatter_X_T.m` is backward compatible with releases older than R2014b, while `PhaseII_Shewhart.m`, `PhaseII_CUSUM.m` and `PhaseII_EWMA.m` require R2016b or later because they call `yline`, `readmatrix` and `exportgraphics`.
 
 ## Notes
-
-* `rlU_cusum_tbeaCSnw.asv` is an automatic MATLAB backup file and is not part of the code; it is excluded from the repository through `.gitignore`.
-* In each ARL script the active statistic (`Z1`, `Z2` or `Z3`) is selected by the single uncommented line `x = X1 ...`; the two remaining alternatives are kept in the file for convenience.
 * The Monte-Carlo results depend on the random seed; the published values were obtained with the settings stored in the files.
