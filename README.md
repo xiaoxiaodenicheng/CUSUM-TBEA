@@ -4,9 +4,6 @@ This is the code file for the paper **"CUSUM schemes for simultaneously monitori
 
 Time: 2026.10.29
 
-> 中文版本见 [README.md](README.md)。
-
----
 
 ## Code File and Description
 
